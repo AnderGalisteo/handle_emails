@@ -3,8 +3,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 mail_content = '''Hello,
 This is a simple mail. There is only text, no attachments are there The mail is sent using Python SMTP library.
-Thank You
-' ' '
+Thank You'''
 #The mail addresses and password
 sender_address = 'sender123@gmail.com'
 sender_pass = 'xxxxxxxx'
